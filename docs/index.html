@@ -15,12 +15,16 @@
     window.$docsify = {
       name: '✏️Today I Learned!',
       repo: 'https://github.com/boring-km/TIL',
-      loadSidebar: true
+      loadSidebar: true,
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md',
+      },
+      subMaxLevel: 3
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
-
+  <script src="//unpkg.com/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
 </script>
 </body>
 </html>
