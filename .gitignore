@@ -1,2 +1,4 @@
 .jekyll-cache
 .idea
+docs/package-lock.json
+docs/_site
